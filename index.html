@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quote Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Inspirify | Modern Quotes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Random Quote Generator</h1>
-        <div class="quote-box">
-            <p id="quote">Click the button to generate a quote!</p>
-            <h4 id="author"></h4>
-        </div>
-        <button onclick="generateQuote()">New Quote</button>
+    <div class="blob"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="glass-card">
+        <i class="fa-solid fa-quote-left quote-icon"></i>
+        <p id="quote">Simplicity is the ultimate sophistication.</p>
+        <h4 id="author">— Leonardo da Vinci</h4>
+        <button onclick="generateQuote()" class="btn-main">New Inspiration</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
